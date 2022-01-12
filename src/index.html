@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+
+  <div id='headerandlogo'><img src="./SVG/KamranAsset 1.svg" alt=""></div>
+
+<div class="websiteIntro">
+    <span class="span1">This App is for comparing Javascript Code!.</span>
+<br>
+    <span class="span2"> Paste the files to see the Difference.</span>
+    <br>
+    <span class="span3"> Ignores single and multiple line comment.</span>
+    <br>
+    <span class="span2A"></span>
+    <span class="span2B">Green color for Matched lines</span>
+</div>
+<div id="rangediv">
+    <span id="tip1">First paste code into Notepad or similar text viewer to avoid unexpected results</span>
+    <span id="tip2">Use Best Range for attaining complete results</span>
+    <button id="bestrange">Best Range</button>
+    <button id="customizerange">Customize Range</button>
+    <input type="number" id="searchRange" value="0" onchange="changeRangeToggle()" />
+</div>
+<div id="main">
+    
+    <span class="originaltext">Original Text</span>
+    <span class="changedtext">Changed Text</span>
+<div class="firstpart">
+    <div id="pleaseColor" class="setColor"></div>
+    <div id="pleaseColor2"></div>
+    <div contenteditable="true" id="firstDivTextArea"></div>   
+    <div contenteditable="true" id="secondDivTextArea"></div>
+</div>
+<button id="differencebutton">Difference</button>
+
+</div>
+
+<div id="aboutwebsite">
+    <span id="why">Why</span>
+    <br>
+    <div id="whydiv">This is the most reliable App for Comparing Javascript</div>
+    <div id="points">
+    <p>
+        Ignores single and multi line comments
+    </p>
+    <p>
+        Does not realign the code like all the other websites
+    </p>
+    <p>
+        Can compare files with different lengths and order
+    </p>
+    <p>
+        Complete search using Best Range option but compromized speed
+    </p>
+    <p>
+        Faster with Customized range with compromized Accuracy
+    </p>
+    </div>
+
+    
+</div>
+<div id="ideaforcreating">
+    <p>The idea to create this App was conceived recently when i had to compare code which used Javascript
+        I was assessing the works of my peers and juniors which was mainly in React, Vue, Nodejs and similar.
+        So when i tried to compare the files in many online and offline websites and softwares, I found Almost
+        All those were very inaccurate and unadvanced to handle with what i was looking for, So i decided to 
+        Build code that can suffice my expectations and this is how this App was created.
+    </p>
+</div>
+
+
+
+<footer>
+    Created by Mohammed Moin
+</footer>
+<script src="./actualindex.js">
+
+</script>
+</body>
+</html>
+
+ 

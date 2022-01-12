@@ -1,0 +1,438 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#headerandlogo {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%; 
+    height: 20%;
+}
+
+img {
+    width: 130px;
+    height: 90px;
+    margin-left: 42%;
+    margin-top: 5px;
+}
+.websiteIntro {
+    min-height: 35vh;
+    background-color: #EBFAF5;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 2%;
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-bottom: 50px;
+    line-height: 2em;
+    font-size: 1.2vw;
+    color: #2C363C;
+}
+.websiteIntro span:first-child {
+    position: absolute;
+    font-weight: 500;
+    font-size: 3vw;
+    padding-bottom: 10px;
+}
+.websiteIntro .span2 {
+    position: absolute;
+    margin-left: 0.7%;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #161B1D;
+}
+.websiteIntro .span3 {
+    position: absolute;
+    margin-left: 0.7%;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #161B1D;
+}
+.websiteIntro .span2A {
+    position: absolute;
+    width: 5vw;
+    height: 1vw;
+    margin-left: 0.7%;
+    margin-top: 21px;
+    background-color: rgba(66, 245, 108, 0.8);
+}
+.websiteIntro .span2B {
+    position: absolute;
+    margin-left: 8%;
+    margin-top: 17px;
+    color: #526956;
+    border-bottom: 1px solid green;
+    line-height: 20px;
+}
+
+#rangediv {
+margin-top: 5%;
+padding-left: 5%;
+width: 100%;
+height: 8vh;
+}
+#tip1 {
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 0;
+    font-size: 1vw;
+}
+
+#tip1::before {
+    position: absolute;
+    margin-left: -4%;
+    margin-top: 2px;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 10px;
+}
+#tip2 {
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 20px;
+    font-size: 1vw;
+}
+#tip2::before {
+    position: absolute;
+    margin-left: -7%;
+    margin-top: 3px;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 5px;
+}
+#bestrange {
+position: absolute;
+font-size: 1vw;
+margin-top: 5px;
+margin-left: 49%;
+width: 9vw;
+min-height: 8vh;
+border-radius: 3px;
+background-color: rgb(115, 248, 115);
+border: 0;
+color: black;
+}
+#customizerange {
+position: absolute;
+font-size: 1vw;
+margin-top: 5px;
+margin-left: 62%;
+width: 9vw;
+min-height: 8vh;
+border-radius: 3px;
+box-shadow: 0,0,0,0;
+background-color: rgb(115, 248, 115);
+border: 0;
+color: black;
+}
+#searchRange {
+position: absolute;
+font-size: 1vw;
+margin-top: 11px;
+margin-left: 73%;
+width: 10vw;
+min-height: 6vh;
+border-radius: 10px;
+padding-left: 7px;
+visibility: hidden;
+}
+#main {
+    margin-top: 0%;
+    min-height: 100vh;
+    overflow: auto;
+}
+.firstpart {
+    margin-top: 10%;
+    width: 95vw;
+    min-height: 75vh;
+    overflow: auto;
+}
+#main .originaltext {
+    font-size: 1.25vw;
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 21%;
+}
+#main .changedtext {
+    font-size: 1.25vw;
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 67%;
+}
+#pleaseColor {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 4.1%;
+    border: 1px solid gray;
+    background-color: rgba(66, 245, 108, 0.8);
+    height: 22px;  
+    padding: 2px;
+    width: 41.55vw;
+    z-index: -1;
+    border: none;
+}
+#pleaseColor2 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 49.75%;
+    border: 1px solid gray;
+    background-color: rgba(66, 245, 108, 0.8);
+    height: 22px;  
+    padding: 2px;
+    width: 41.6vw;
+    z-index: -1;
+    border: none;
+}
+#firstDivTextArea {
+    float: left;
+    margin-top: 0px;
+    margin-left: 4%;
+    border: 1px solid gray;
+    min-height: 65vh;  
+    overflow: auto; 
+    padding: 2px;
+    resize: both;
+    width: 42vw;
+    font-size:15px;
+    color:#000;
+}
+
+#secondDivTextArea {
+    margin-top: 0px;
+    margin-left: 51.5%;
+    border: 1px solid gray;
+    min-height: 65vh; 
+    overflow: auto; 
+    padding: 2px;
+    resize: both;
+    width: 42vw;
+    font-size:15px;
+    color:#000;
+}
+#differencebutton {
+    font-size: 1.3vw;
+    margin-top: 20px;
+    margin-left: 43%;
+    min-width: 10vw;
+    min-height: 7vh;
+    border-radius: 5px;
+    letter-spacing: 0.1vw;
+    background-color: rgba(66, 245, 108, 0.8);
+    color: black;
+    border: 0;    
+}
+#aboutwebsite {
+    margin-top: 10%;
+    min-height: 50vh;
+    padding-left: 24vw;
+    padding-bottom: 20px;
+    font-size: 17px;
+    color: #2C363C;
+    background-color: rgb(174, 245, 174);
+    
+}
+#aboutwebsite #why {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 0%;
+    font-size: 3vw;
+    color: black;
+}
+#aboutwebsite #whydiv {
+    font-size: 20px;
+    margin-top: 55px;
+}
+#aboutwebsite > #points {
+    margin-top: 15px;
+}
+#aboutwebsite > #points p {
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+#aboutwebsite > #points p::before {
+    content: '';
+    position: absolute;
+    margin-top: 6px;
+    margin-left: -17px;
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 5px;
+}
+
+#ideaforcreating {
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+    line-height: 20px;
+    background-color: lightgreen;
+    overflow: auto;
+}
+footer {
+    margin-top: 10px;
+    font-size: 1.2vw;
+    height: 35px;
+    width: 100%;
+    background-color: lightgreen;
+    text-align: center;
+    line-height: 35px;
+    color: black;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 1200px) {
+#searchRange {
+    margin-top: 8px;
+}
+#tip1::before {
+    margin-top: -0px;
+}
+#tip2::before {
+    margin-top: -0px;
+}
+#bestrange {
+    min-height: 5vh;
+    }
+    #customizerange {
+    min-height: 5vh;
+    }
+    #searchRange {
+    min-height: 4vh;
+    }
+  #pleaseColor {
+    margin-left: 4.15%;
+}
+#pleaseColor2 {
+    margin-left: 49.9%;
+}
+  #aboutwebsite #why {
+    font-size: 3vw;
+}
+#aboutwebsite #whydiv {
+    font-size: 2vw;
+    
+}
+#aboutwebsite > #points p::before {
+    content: '';
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -15px;
+    width: 0.5vw;
+    height: 1vh;
+    background-color: green;
+    border-radius: 1vw;
+    
+}
+
+#aboutwebsite #points {
+    font-size: 1.5vw;
+}
+
+  #ideaforcreating {
+    font-size: 1.4vw;
+}
+}
+@media only screen and (max-width: 1000px) {
+    img {
+        width: 90px;
+        height: 65px;
+        margin-left: 42%;
+        margin-top: 5px;
+    }
+    #main {
+        min-height: 55vh;
+    }
+    .firstpart {
+        min-height: 35vh; 
+    }
+  #pleaseColor {
+    margin-left: 4.3%;
+    width: 41.2vw;
+}
+#pleaseColor2 {
+    margin-left: 50.4%;
+    width: 41.2vw;
+}
+#differencebutton {
+    font-size: 1.6vw;
+    margin-top: 25px;
+    margin-left: 42%;
+    min-width: 12vw;
+    min-height: 5vh;
+}
+
+#firstDivTextArea {
+    min-height: 35vh;  
+}
+
+#secondDivTextArea {
+    min-height: 35vh; 
+}
+}
+@media only screen and (max-width: 700px) {
+.websiteIntro {
+    min-height: 25vh;
+}
+#tip1::before {
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+}
+
+#tip2::before {
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+}
+#bestrange {
+    min-height: 3vh;
+    }
+    #customizerange {
+    min-height: 3vh;
+    }
+    #searchRange {
+    min-height: 2vh;
+    }
+#pleaseColor {
+    margin-left: 4.4%;
+    width: 41vw;
+}
+#pleaseColor2 {
+    margin-left: 50.7%;
+    width: 41.2vw;
+}
+
+#aboutwebsite {
+    padding-left: 18%;
+    min-height: 30vh;
+}
+#aboutwebsite #whydiv {
+    margin-top: 6%;
+}
+#aboutwebsite > #points p::before {
+    content: '';
+    position: absolute;
+    margin-top: 4px;
+    margin-left: -15px;
+    width: 5px;
+    height: 5px;
+    background-color: green;
+    border-radius: 5px;
+}
+
+#aboutwebsite #points {
+    margin-top: 19px;
+}
+}
